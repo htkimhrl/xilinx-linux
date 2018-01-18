@@ -1,0 +1,9 @@
+menu "HRL Drivers"
+
+
+config HELLO_HRL_MODULE
+	tristate "Hello HRL" 
+	default m
+	help 
+	  hello HRL module.
+endmenu
